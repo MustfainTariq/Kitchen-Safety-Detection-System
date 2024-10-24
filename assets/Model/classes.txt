@@ -1,0 +1,6 @@
+glove
+hairnet
+maskoff
+maskon
+no_glove
+no_hairnet

@@ -1,0 +1,36 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google() // يضمن استخدام مستودع Google لتحميل الإضافات الضرورية
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.1.3' // تأكد من استخدام أحدث إصدار متوافق مع بيئتك
+        classpath 'com.google.gms:google-services:4.4.1' // Google Services plugin
+        classpath 'com.android.tools.build:gradle:4.2.2'
+    }
+}
+
+allprojects {
+    repositories {
+        google() // استخدام مستودع Google لجميع المشاريع الفرعية
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = '../build'
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+    project.evaluationDependsOn(':app')
+
+    repositories {
+        // تأكد من أن جميع المشاريع الفرعية يمكن أن تصل إلى مستودعات Google و Maven Central
+        google()
+        mavenCentral()
+    }
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}
