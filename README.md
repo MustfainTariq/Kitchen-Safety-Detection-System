@@ -1,6 +1,6 @@
 # Kitchen Safety Detection System
 
-![Kitchen Safety Detection]([https://via.placeholder.com/800x400](https://github.com/MustfainTariq/Kitchen-Safety-Detection-System/blob/main/Screenshots/1.webp))  
+![Kitchen Safety Detection]([https://via.placeholder.com/800x400](https://github.com/MustfainTariq/Kitchen-Safety-Detection-System/blob/main/Screenshots/1.png))  
 *Ensuring hygiene and safety in commercial kitchens through AI-powered detection.*
 
 ## Overview
