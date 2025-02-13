@@ -1,6 +1,11 @@
 # Kitchen Safety Detection System
+## Screenshots
+### Image Capture Interface
+![Image Capture](Screenshots/1.png)
 
-![Kitchen Safety Detection]([https://via.placeholder.com/800x400](https://github.com/MustfainTariq/Kitchen-Safety-Detection-System/blob/main/Screenshots/1.png))  
+### Detection Result Interface
+![Detection Result](Screenshots/2.png)
+
 *Ensuring hygiene and safety in commercial kitchens through AI-powered detection.*
 
 ## Overview
@@ -26,3 +31,5 @@ The **Kitchen Safety Detection System** is an AI-driven application that monitor
 ```sh
 git clone https://github.com/your-username/kitchen-safety-detection.git
 cd kitchen-safety-detection
+
+
